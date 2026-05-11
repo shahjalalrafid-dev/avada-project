@@ -1,0 +1,57 @@
+/**All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Podkova", serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1140px;
+    
+    
+    margin: 0 auto;
+}
+
+
+/** All Common CSS End  */
+
+/** Navbar Design Start */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu{
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav_ul{
+    display: flex;
+}
+.nav_ul li{
+    padding: 60px 30px;
+}
+.nav_ul li a{
+    color: black;
+    font-size: 18px;
+}
+.nav_button button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.fa-star{
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+/** Navbar Design End */
