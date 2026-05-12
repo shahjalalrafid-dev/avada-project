@@ -55,3 +55,92 @@ a{
 }
 
 /** Navbar Design End */
+
+/* Feature Part Design Start */
+
+.feature_section{
+    background-color: #FFE979;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.feature{
+    display: flex;
+    
+
+    
+}
+.feature_photo{
+    width: 50%;
+}
+.feature_content{
+    width: 50%;
+    justify-items: end;
+    align-content: center;
+    
+}
+.feature_content h1{
+    margin-bottom: 34px;
+    font-weight: 700;
+    font-size: 42px;
+    
+
+    
+}
+.feature_content p{
+    font-family: 18px;
+    width: 512px;
+    margin-bottom: 42px;
+    
+    
+}
+.feature_content button{
+    background-color: black;
+    color: white;
+    padding: 14px 36px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-left: 58px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.feature_content button:hover{
+    background-color: #FFE979;
+    color: black;
+}
+
+
+
+/* Feature Part Design End */
+
+/* Layout Part Design Start */
+
+.layout{
+    padding-top: 73px;
+    padding-bottom: 103px;
+    
+}
+.layout_container{
+    display: flex;
+    
+}
+.layout_general{
+    width: 33.33%;
+    justify-items: center;
+    
+}
+.layout_general p{
+    width: 316px;
+    line-height: 1.5;
+}
+.layout_image{
+    margin-bottom: 18px;
+}
+.layout_general h3{
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+/* Layout Part Design End */
+
