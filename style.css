@@ -144,3 +144,41 @@ a{
 
 /* Layout Part Design End */
 
+ /* Secondary Feature Design Start */
+.secondary_feature{
+    padding-bottom: 90px;
+}
+.secondary_box{
+    display: flex;
+    column-gap: 160px;
+    align-items: center;
+    
+
+}
+    
+.secondary_content button{
+    background-color: #FFE979;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    margin-bottom: 20px;
+
+}
+.secondary_content button:hover{
+    background-color: transparent;
+}
+.secondary_content h3{
+    font-size: 40px;
+    font-weight: 600;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.secondary_content p{
+    width: 400px;
+    font-size: 13px;
+}
+
+/* Secondary Feature Design End  */
